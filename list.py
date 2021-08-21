@@ -24,3 +24,9 @@ import random
 
 
 # 20210814 숙제 임의의 수 하나 입력받고 이거와 약수를 리스트에 넣기
+a = int(input())
+b = []
+for i in range(1,a+1) :
+    if a % i == 0 :
+        b.append(i)
+        print('b')
