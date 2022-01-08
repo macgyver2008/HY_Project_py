@@ -53,7 +53,7 @@ del d['new1']
 
 #6.set 집합
 #set(), {}
-#순서없음, 중복없음.                             
+#순서없음, 중복없음.
 # union(합집합), difference(차집합), intersection(교집합)
 s = {1, 2, 3, 3, 3}
 s2 = {3, 4, 5}
@@ -62,3 +62,4 @@ s2 = {3, 4, 5}
 #7.bool boolean
 #단 두가지 값만 가짐 . Ture, False
 #참과 거짓에서 볼수있음
+#not을 사용하여 값을 반전할수있음 bool type에만 적용가능 ㅇㅇ
